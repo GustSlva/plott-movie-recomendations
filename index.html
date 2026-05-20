@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recomendador de Filmes</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Plott - Seu próximo filme favorito</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+
 </head>
 <body>
 
     <div class="start">
         <div class="header">
             <video autoplay muted loop playsinline class="bg-video">
-                <source src="/files/YTDown_YouTube_The-Most-Beautiful-Shots-in-Cinematic-Hi_Media_c9iCUxuWSwQ_001_1080p.mp4" type="video/mp4">
+                <source src="/assets/videos/YTDown_YouTube_The-Most-Beautiful-Shots-in-Cinematic-Hi_Media_c9iCUxuWSwQ_001_1080p.mp4" type="video/mp4">
                 Seu navegador não suporta vídeos.
             </video>
 
@@ -19,8 +26,8 @@
 
             <div class="header-content">
                 <h1>
-                    O próximo filme para você assistir.<br>
-                    Baseado no que você já gosta.<br>
+                    O próximo filme para você assistir<br>
+                    Baseado no que você já gosta<br>
                     Em segundos. :3
                 </h1>
                 <span class="scroll-indicator">Começar Agora</span>
