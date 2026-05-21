@@ -23,8 +23,6 @@ body {
 }
 
 
-
-
 .bg-video {
     position: absolute;
     top: 0;
@@ -45,7 +43,6 @@ body {
     background-color: rgba(20, 24, 28, 0.3); 
     z-index: 2; 
 }
-
 
 .header-content {
     position: relative;
